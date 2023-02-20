@@ -13,9 +13,9 @@ int main(void)
 	ch = 'z';
 	while
 		(ch >= 'a') {
-		ch--;
-		putchar(ch);
-	}
+			putchar(ch);
+			ch--;
+		}
 	putchar('\n');
 	return (0);
 }
